@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>My First jQuery Mobile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
+	<script>
+	$(function() {
+			$( "[data-role='navbar']" ).navbar();
+			$( "[data-role='header'], [data-role='footer']" ).toolbar();
+		});
+	</script> 
+</head>
+
+<body>
+
+<!--Home Page-->
+<div data-role="page">
+    <div data-role="header" data-theme="b">
+    <h1>KZ Portfolio</h1>
+    <a href="Index.html" data-icon="home" data-iconpos="notext" data-transition="flow">Home</a>
+    </div>
+	
+    <div role="main" class="ui-content">
+    <ul data-role="listview" data-inset="2">
+      <li data-icon="shop"><a href="Work.html" data-transition="slidefade">See My Work</a></li>
+      <li data-icon="user"><a href="About.html" data-transition="slidefade">About Me</a></li>
+      <li data-icon="mail"><a href="Contact.html" data-transition="slidefade">Contact Me</a></li>
+     </ul>
+    </div>
+
+</div>
+<!--Persistent Footer outside of page-->
+	<div data-role="footer" data-position="fixed">
+    
+     <div data-role="navbar"> 
+        <ul>
+      <li><a href="Work.html" data-icon="shop" data-transition="flow">Work</a></li>
+      <li><a href="About.html" data-icon="user" data-transition="flow">About</a></li>
+      <li><a href="Contact.html" data-icon="mail" data-transition="flow">Contact</a></li>
+        </ul>
+     </div>
+    
+    </div>
