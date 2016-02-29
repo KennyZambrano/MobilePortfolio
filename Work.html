@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>My First jQuery Mobile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="themes/PageColors.min.css"/>
+    <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
+	<script>
+	$(function() {
+			$( "[data-role='navbar']" ).navbar();
+			$( "[data-role='header'], [data-role='footer']" ).toolbar();
+		});
+	</script> 
+</head>
+
+<body>
+
+<!--Home Page-->
+<h1>KZ Work</h1>
+    <a href="Index.html" data-icon="home" data-iconpos="notext" data-transition="flow">Home</a>
+    </div>
+<div data-role="page">
+    <div data-role="header" data-theme="b">
+    <h1>KZ Work</h1>
+    <a href="Index.html" data-icon="home" data-iconpos="notext" data-transition="flow">My Work</a>
+    </div>
+	<div role="main" class="ui-content">
+    
+     
+     <a href="#popupCloseRight" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Fallout 4 Poster</a>
+<div data-role="popup" id="popupCloseRight" class="ui-content" style="max-width:280px">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+ <img src="http://i.ebayimg.com/images/i/262238017382-0-1/s-l1000.jpg"></img>
+</div>
+
+    <!--<a href="#popupBasic" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">Fallout 4 Poster</a>
+    <div data-role="popup" id="popupBasic">
+    <h2>Fallout 4 Poster Design</h2>
+    <img src="http://i.ebayimg.com/images/i/262238017382-0-1/s-l1000.jpg"></img>-->
+    
+  <a href="#popupCloseRight" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Illustration</a>
+<div data-role="popup" id="popupCloseRight" class="ui-content" style="max-width:280px">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+ <img src="https://s-media-cache-ak0.pinimg.com/736x/83/33/c8/8333c8198ff007d8ae35f8e9ed441984.jpg"></img>
+</div>
+
+<a href="#popupCloseRight" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Cinco De Mayo Painting</a>
+<div data-role="popup" id="popupCloseRight" class="ui-content" style="max-width:280px">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+ <img src="http://www.moodswingsonthenet.com/images/Category/large/690.jpg"></img>
+</div>
+
+<a href="#popupCloseRight" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Koi Fish Painting</a>
+<div data-role="popup" id="popupCloseRight" class="ui-content" style="max-width:280px">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+ <img src="http://orig15.deviantart.net/1b7c/f/2013/036/c/6/tattoo_style_koi_by_jaxxblackfox-d5twzgq.jpg"></img>
+</div>
+    
+<div data-role="footer">
+    <h1>&copy; 2016</h1>
+    </div>
+</div>
+
+<div data-role="footer" data-position="fixed">
+    <div data-role="navbar"> 
+        <ul>
+      <li><a href="Work.html" data-icon="shop">Work</a></li>
+      <li><a href="About.html" data-icon="user">About</a></li>
+      <li><a href="Contact.html" data-icon="mail">Contact</a></li>
+        </ul>
+     </div>
+</div>
+
+
+
+</body>
+</html>
