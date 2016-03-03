@@ -5,9 +5,12 @@
 	<title>My First jQuery Mobile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="themes/PageColors.min.css"/>
-    <link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="themes/PageColors.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.icons.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.structure.min.css"/>
+    <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
 	<script>
 	$(function() {
@@ -20,8 +23,8 @@
 <body>
 
 <!--Home Page-->
-<div data-role="page">
-    <div data-role="header" data-theme="b">
+<div data-role="page" data-theme="b">
+     <div data-role="header" >
     <h1>KZ Portfolio</h1>
     <a href="Index.html" data-icon="home" data-iconpos="notext" data-transition="flow">Home</a>
     </div>
@@ -36,7 +39,7 @@
 
 </div>
 <!--Persistent Footer outside of page-->
-	<div data-role="footer" data-position="fixed">
+	<div data-role="footer" data-position="fixed" data-theme="b">
     
      <div data-role="navbar"> 
         <ul>
@@ -47,3 +50,8 @@
      </div>
     
     </div>
+
+
+</body>
+</html>
+
